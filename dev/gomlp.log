@@ -1,0 +1,61 @@
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+## RBM pretraining
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+visnum: 130
+slp.norm
+0.756254598119
+0.506016473819
+0.485938572519
+0.478479708294
+0.474072415224
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+visnum: 32
+slp.norm
+0.117501650973
+0.097277844448
+0.0951654296147
+0.094137700575
+0.0936298170246
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+visnum: 32
+slp.norm
+0.0717821131146
+0.0477736559847
+0.0433049711552
+0.0418332221717
+0.0412970565778
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+visnum: 32
+slp.norm
+## backprop
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+(130, 32)
+(32, 32)
+(32, 32)
+(32, 19)
+/usr/lib64/python2.6/site-packages/numpy/core/_methods.py:26: DeprecationWarning: converting an array with ndim > 0 to an index will result in an error in the future
+  return umr_maximum(a, axis, None, out, keepdims)
+/usr/lib64/python2.6/site-packages/numpy/core/fromnumeric.py:935: DeprecationWarning: converting an array with ndim > 0 to an index will result in an error in the future
+  return argmax(axis)
+Start training (minibatch size=128)
+Epoch Train Devel
+Training data X:  (75447, 130)
+Dev data X:  (21188, 130)
+0: 98.7819263854 99.150462526
+1: 18.9139395867 18.0337927129
+2: 11.7473193102 15.4568623749
+3: 9.20646281496 13.2999811214
+4: 7.7034209445 12.1531055314
+5: 6.74380691081 12.2380592788
